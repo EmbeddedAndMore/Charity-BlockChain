@@ -29,12 +29,16 @@
 10. Now the wallet is created
 11. Open the  MetaMask page.
 12. Click on **Ethereum Mainnet**
+![networks](imgs/network.png)
 13. Enable **Show test networks**
 14. Click on **Sepolia**
 15. Copy the wallet key and go to https://sepoliafaucet.com/
+![networks](imgs/copy-wallet-address.png)
 16. Log in, enter your key and click **Send Me ETH**
 17. After a few seconds a few ETH should be transfered to your account.
 18. In MetaMask page, click on **Account 1** then click on 3 dots on right side of the **Accound 1** and click **Account Details**
+![networks](imgs/account-for-private-key.png)
+![networks](imgs/account-details.png)
 19. click **Show Private Key**
 20. Enter password and copy the private key
 21. inside **charityfund** folder create a **.env** file and fill it with the following format:
