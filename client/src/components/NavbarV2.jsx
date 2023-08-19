@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { useStateContext } from "../context";
 import { CustomButton } from ".";
-import { logo, menu, search, thirdweb, charity } from "../assets";
+import { menu, charity } from "../assets";
 import { navlinks } from "../constants";
 import { useDisconnect } from "@thirdweb-dev/react";
 import "./CustomButton.css";

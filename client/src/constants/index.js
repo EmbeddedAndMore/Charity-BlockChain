@@ -1,10 +1,7 @@
 import {
   ownCampaign,
   dashboard,
-  logout,
   newCampaign,
-  payment,
-  withdraw,
 } from "../assets";
 
 export const navlinks = [
