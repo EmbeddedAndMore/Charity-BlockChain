@@ -3,11 +3,33 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { useStateContext } from "../context";
 import { CustomButton } from ".";
-import { menu, charity } from "../assets";
-import { navlinks } from "../constants";
+import { menu, charity,ownCampaign,dashboard,newCampaign} from "../assets";
+
 import { useDisconnect } from "@thirdweb-dev/react";
 import "./CustomButton.css";
 import "../index.css";
+
+
+
+const navlinks = [
+  {
+    name: "All Campaigns",
+    imgUrl: dashboard,
+    link: "/",
+  },
+  {
+    name: "Create Campaign",
+    imgUrl: newCampaign,
+    link: "/create-campaign",
+  },
+  {
+    name: "Profile",
+    imgUrl: ownCampaign,
+    link: "/profile",
+  },
+];
+
+
 
 const Icon = ({ styles, name, imgUrl, isActive, disabled, handleClick }) => (
   <div
